@@ -12,8 +12,8 @@ export default function NavBar() {
             </div>
         </Link>
         <ul className='flex items-center ml-72'>
-            <NavBarItem name={'Destinations'} link={'destinations'}/>
-            <NavBarItem name={'Search'} link={'Bus'}/>
+            <NavBarItem name={'Home'} link={'/'}/>
+            <NavBarItem name={'Search'} link={'search'}/>
             <NavBarItem name={'Hotels'} link={'hotel'}/>
             <NavBarItem name={'Bookings'} link={'bookings'}/>
 

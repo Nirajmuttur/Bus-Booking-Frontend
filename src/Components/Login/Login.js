@@ -34,17 +34,23 @@ export default function Login() {
                         <>
                             <h1 className="font-semibold text-3xl leading-5 p-5 text-center uppercase font-['Poppins']">Login</h1>
                             <Form className='p-5 flex flex-col justify-center'>
-                                <div className='mx-auto mb-6'>                            
-                                    <Field placeholder="Email address" type='text' id='email' name='email' className="w-full px-4 py-2 rounded-lg shadow-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
-                                    <ErrorMessage name='email' component={TextError} />
+                                <div className='mx-28'>
+                                    <div className='mx-auto mb-6'>                            
+                                        <Field placeholder="Email address" type='text' id='email' name='email' className="w-full px-4 py-2 rounded-lg shadow-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
+                                        <ErrorMessage name='email' component={TextError} />
+                                    </div>
+
                                 </div>
-                                <div className='mb-6 mx-auto'>
-                                    <Field placeholder="Password" type='password' id='password' name='password' className="px-4 py-2 rounded-lg shadow-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
-                                    <ErrorMessage name='password' component={TextError} />
+                                <div className='mx-28'>
+                                    <div className='mb-6 mx-auto'>
+                                        <Field placeholder="Password" type='password' id='password' name='password' className="w-full px-4 py-2 rounded-lg shadow-md font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
+                                        <ErrorMessage name='password' component={TextError} />
+                                    </div>
                                 </div>
+                                
                                 <div className='mx-auto'>
-                                    <button type='submit' disabled={!formik.isValid || formik.isSubmitting} className="mx-14 bg-yellow-500 px-4 py-2 rounded-lg shadow-lg hover:shadow-xl">
-                                        Submit
+                                    <button type='submit' disabled={!formik.isValid || formik.isSubmitting} className="bg-yellow-500 px-4 py-2 rounded-lg shadow-lg hover:shadow-xl">
+                                        Login
                                     </button>
                                 </div>
                                 <div className="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
