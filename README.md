@@ -12,10 +12,10 @@ A bus booking system allows users to book and manage bus tickets through a web-b
 - Cross platform
 
 <p align="left">
-   <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/1.png" width="350" title="Login Page">
-  <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/2.png" width="350" title="Landing page">
-   <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/3.png" width="350" title="Products Page">
-   <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/4.png"  width="350" title="Cart Page">
+   <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/1.png" width="350" title="Landing Page">
+  <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/2.png" width="350" title="Search page">
+   <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/3.png" width="350" title="Login Page">
+   <img src="https://github.com/Nirajmuttur/Bus-Booking-Frontend/blob/master/screenshots/4.png"  width="350" title="SignUp Page">
 </p>
 
 # Installation
